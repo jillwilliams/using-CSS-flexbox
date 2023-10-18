@@ -65,6 +65,13 @@ container {
     text-align: center;
 
 }
+.container .card .content div h2 {
+    font-size: 1rem;
+
+}
+.container .card .content div p {
+    font-size: 0.8rem;
+} 
 @media (max-width: 1000px) {
     .container {
         grid-template-columns: repeat(auto-fit, minmax(100%,1fr));
